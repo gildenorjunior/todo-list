@@ -1,0 +1,62 @@
+.pagina-toda {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+.card {
+    margin: 80px 30px 80px 30px;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body {
+    width: 500px;
+    min-height: 70px;
+}
+
+.adicionar-tarefa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.adicionar-tarefa > input {
+        width: 100%;
+}
+
+.tarefa {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.tarefa .item-tarefa {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.item-tarefa > p {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sublinhado > p{
+    text-decoration-line: line-through;
+}
+
+.tarefa > p {
+    width: 100%;
+    margin-top: 13px;
+}
+
+
+
+
